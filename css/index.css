@@ -1,0 +1,274 @@
+*{
+	margin: 0px;
+	padding:0px; 
+}
+
+html {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-overflow-scrolling: touch;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+img{
+	border:0;
+	width: 100%;
+	height: 105%;
+}
+
+li{
+	list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+	color: #000;
+}
+
+
+
+.logo{
+	width: 100%;
+	height: 100px;
+}
+
+
+.logo .search{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 453px;
+	height: 42px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	background: rgba(0, 0, 0, 0.7);
+	
+}
+
+.Nav{
+	width: 100%;
+	height: 50px;
+	background: #000;
+}
+
+.Nav ul{
+	width: 85%;
+	height: 50px;
+	
+	margin: 0px auto;
+}
+
+.Nav ul li{
+	width: auto;
+	height: 50px;
+	list-style-type: none;
+	float: left;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 50px;
+}
+
+.Nav ul li a.a1{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0px 20px;
+}
+
+.Nav ul li.first{
+	width: 180px;
+	background: #ff6699;
+	text-indent: 20px;
+	position: relative;
+}
+
+.Nav ul li a.a1:hover{
+	background: rgba(255, 255, 255,0.5);
+}
+
+.Nav ul li.first .menu{
+	width: 1100px;
+	height: 200px;
+	background: rgba(255, 255, 255, 1);
+	border-bottom: 1px #272727 solid; 
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	display: none;
+	z-index: 10;
+}
+.Nav ul li.first .menu .menu01{
+	width: 366px;
+    height: 200px;
+    border-right: 1px rgba(0, 0, 0, 0.4) solid;
+    top: 0px;
+    left: 0px;
+    float: left;
+    border-left: 1px rgba(0, 0, 0, 0.4) solid;
+}
+.Nav ul li.first .menu .menu02{
+    width: 366px;
+    height: 200px;
+    border-right: 1px rgba(0, 0, 0, 0.4) solid;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+
+.Nav ul li.first .menu .menu03{
+    width: 364px;
+    height: 200px;
+    border-right: 1px rgba(0, 0, 0, 0.4) solid;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+
+.item a{
+	color:#000000;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	color: #97D2F7;
+	line-height: 18px;
+	float: left;
+	margin-top: 8px;
+	width: auto;
+	text-decoration: none;
+}
+
+.item a:hover{
+	color:#FFD700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center{
+	width: 1200px;
+	height: 450px;
+	background: #f0f0f0;
+	margin: 10px auto;
+}
+
+.center .Navleft{
+	width:250px;
+	height: 450px;
+	background: #ffffaa;
+	float: left;
+}
+
+.center .lunbo{
+	width: 800px;
+	height: 450px;
+	/* background: #0080ff; */
+	float: left;
+	margin-left: 5px;
+}
+
+.center .lunbo .ag7-main{
+	/* padding-top: 60px;  */
+	width: 800px;
+	height: 450px;
+	overflow: hidden;
+	 /* margin: 0 auto;  */
+	 /* padding-bottom: 70px; */
+	}
+
+.center .lunbo .ag7-bannerslide{
+	position: relative; 
+	margin-bottom: 50px; 
+}
+
+.center .lunbo .ag7-bannerslide .slidebox{
+	position: relative; 
+	height: 440px;
+}
+
+
+.center .lunbo .ag7-bannerslide .slidebox li{
+	display:block; 
+	position: absolute;
+	width:100%; 
+	height: 100%;
+	left:0px; 
+	top:0px;
+	}
+
+/* .center .lunbo .ag7-bannerslide a img{
+	display:block;
+	max-width: 100%;
+	} */
+
+.center .lunbo .ag7-bannerslide .slideinfo{
+	width:310px;
+	height: 160px;
+	position: absolute; 
+	left:0px; 
+	bottom:50px; 
+	background:rgba(0,0,0,0.5); 
+	z-index: 10;
+}
+
+.center .lunbo .ag7-bannerslide .slidetitle{
+	height: 70px; 
+	padding:25px; 
+	color: #fff; 
+	font-family: 微软雅黑;
+}
+
+.center .lunbo .ag7-bannerslide .slidetitle h2{
+	font-size: 30px; 
+	height:50px; 
+	line-height: 50px; 
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+
+.center .lunbo .ag7-bannerslide .slidetitle h3{
+	font-size: 18px;
+}
+
+.center .lunbo .ag7-bannerslide .slidelist{
+	height:22px;
+	width:100%; 
+	padding:9px 0;  
+	background:rgba(0,0,0,0.5); 
+	position: relative;
+}
+
+.ag7-bannerslide .slidelist ul{
+	text-align: center;
+}
+
+.ag7-bannerslide .slidelist ul li{
+	display: inline-block; 
+	margin:0 4px; 
+	width: 50px; 
+	height: 22px; 
+	cursor: pointer;
+}
+
+.ag7-bannerslide .slidelist .mask{
+	width:54px; 
+	height: 27px; 
+	position: absolute; 
+	left: 32px; top:6px; 
+	background:url('../images/mask_03.png') no-repeat center center; 
+	display: block;
+}
