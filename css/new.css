@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	padding:0px; 
+}
+
+.item {
+	width: 100%;
+	border-bottom: 1px red solid;
+	height: 50px;
+}
+
+.item span{
+	text-indent:50px;
+	font-family: "宋体";
+	font-size: 25px;
+}
