@@ -200,17 +200,14 @@ h1,h2,h3,h4,h5,h6{
 
 /* 中间部分，左侧导航和轮播图 */
 .center{
-	width: 90%;
+	width: 1192px;
 	height: 450px;
-	/* background: #f0f0f0; */
 	margin: 10px auto;
 }
 /* 中间左侧 */
 .center .Navleft{
-	/* width:250px; */
-	width: 20%;
+	width: 241px;
 	height: 450px;
-	/* background: #ffffaa; */
 	float: left;
 	position: relative;
 }
@@ -238,13 +235,13 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
 	color: red;
 }
-.shopClass_show dl dt a{
+.shopClass_show dl.shopClass_item dt a{
 	color: #FFF;
 }
-.shopClass_show dl dd a{
+.shopClass_show dl.shopClass_item dd a{
 	color: #FFF;
 }
-.shopClass_show dl dt a.aLink{
+.shopClass_show dl.shopClass_item dt a.aLink{
 	width: 48px;
 	height: 20px;
 	display: inline-block;
@@ -253,14 +250,83 @@ h1,h2,h3,h4,h5,h6{
 	text-decoration: underline;
 	/* background: url('../images/icon/aLink_bg.png') left center no-repeat; */
 }
+/* 二级鼠标隐现部分 */
+.showList{
+    width: 700px;
+    height: 448px;
+    border: #CCC solid 1px;
+    left: 241px;
+    top: 0;
+    position: absolute;
+    z-index: 11;
+    background: #FFF;
+}
+.showList dl.showList_item{
+	padding: 10px;
+	border-bottom: #CCC solid 1px;
+}
+.showList .showList_cont{
+	padding: 0px 20px;
+}
+.showList dl.showList_item dt{
+	background: #FFF;
+	color: #4B87D9;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+}
+.showList dl.showList_item dd{
+	padding-left: 68px;
+	margin-top: -24px;
+	line-height: 24px;
+}
+.showList dl.showList_item dd a{
+	text-decoration:none; 
+	color:#656565;
+	margin-right: 12px;
+}
+/* 底部两个蓝色的按钮一样的鬼东西 */
+.showList_links{
+	padding: 15px 0;
+}
+.showList_links a{
+	color: #FFF;
+	background-color: #2785E6;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	display: inline-block;
+	padding: 0 14px 0 8px;
+}
+.showList_links span{
+	width: 11px;
+	height: 7px;
+	background: url('../images/icon/shop_sj.jpg') left center no-repeat;
+	display: inline-block;
+	margin-left: -9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 轮播图 */
 .center .lunbo{
 	/* width: 800px; */
-	width: 79%;
+	width: 946px;
 	height: 450px;
 	/* background: #0080ff; */
-	float: left;
+	float: right;
 	margin-left: 5px;
 }
 
